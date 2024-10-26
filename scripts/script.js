@@ -1,26 +1,29 @@
+// Убедитесь, что код выполнится только после загрузки DOM
 document.addEventListener("DOMContentLoaded", function () {
     const ageConfirmModal = document.getElementById('age-confirm-modal');
     const confirmYes = document.getElementById('confirm-yes');
     const confirmNo = document.getElementById('confirm-no');
 
-    // Проверяем, есть ли в localStorage информация о возрасте
+    // Проверка возраста
     if (localStorage.getItem('isAdult') === 'true') {
         ageConfirmModal.style.display = 'none';
     } else {
         ageConfirmModal.style.display = 'flex';
     }
 
-    // Обработчик для кнопки "Да"
-    confirmYes.addEventListener('click', function () {
-        localStorage.setItem('isAdult', 'true');
-        ageConfirmModal.style.display = 'none';
-    });
+    if (confirmYes) {
+        confirmYes.addEventListener('click', function () {
+            localStorage.setItem('isAdult', 'true');
+            ageConfirmModal.style.display = 'none';
+        });
+    }
 
-    // Обработчик для кнопки "Нет"
-    confirmNo.addEventListener('click', function () {
-        alert('Вы не можете продолжить, если вам нет 18 лет.');
-        ageConfirmModal.style.display = 'none';
-    });
+    if (confirmNo) {
+        confirmNo.addEventListener('click', function () {
+            alert('Вы не можете продолжить, если вам нет 18 лет.');
+            ageConfirmModal.style.display = 'none';
+        });
+    }
 
     // Логика навигации по ссылкам в шапке
     const links = document.querySelectorAll("header nav a");
@@ -37,19 +40,26 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 
-    // Логика открытия и закрытия мобильного меню
-    const menuToggle = document.querySelector('.menu-toggle');
-    const nav = document.querySelector('nav');
+    // Функция для переключения мобильного меню
+    function toggleMenu() {
+        const nav = document.querySelector('nav');
+        if (nav) {
+            nav.classList.toggle('show'); // Переключаем класс для открытия/закрытия меню
+        }
+    }
 
-    menuToggle.addEventListener('click', () => {
-        nav.classList.toggle('show'); // Переключаем класс для открытия/закрытия меню
-    });
+    // Добавляем обработчик события для переключения меню
+    const menuToggle = document.querySelector('.menu-toggle');
+    if (menuToggle) {
+        menuToggle.addEventListener('click', toggleMenu);
+    }
 
     // Логика смены локализации
     const localizationButton = document.querySelector('.localization-button');
-    localizationButton.addEventListener('click', () => {
-        // Здесь можно реализовать логику смены языка
-        // Например, менять текст на странице в зависимости от выбранного языка
-        console.log('Localization button clicked');
-    });
+    if (localizationButton) {
+        localizationButton.addEventListener('click', () => {
+            // Здесь можно реализовать логику смены языка
+            console.log('Localization button clicked');
+        });
+    }
 });

@@ -2,7 +2,7 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #45368AFF; /* Новый фон */
+    background-color: #45368a; /* Темный фон */
     color: #ffffff; /* Белый текст */
     display: flex;
     flex-direction: column;
@@ -38,8 +38,12 @@ body {
 }
 
 @keyframes slideIn {
-    from { transform: translateY(100%); }
-    to { transform: translateY(0); }
+    from {
+        transform: translateY(100%);
+    }
+    to {
+        transform: translateY(0);
+    }
 }
 
 #age-confirm-modal {
@@ -117,7 +121,7 @@ main {
 
 section {
     margin-bottom: 30px;
-    background: #292c36; /* Темный фон секций */
+    background: rgba(53, 73, 163, 0.89); /* Темный фон секций */
     border-radius: 12px;
     padding: 25px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
@@ -139,6 +143,7 @@ section img {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); /* Тень для изображений */
 }
 
 table {
@@ -163,7 +168,7 @@ th {
 }
 
 .reviews {
-    background: #292c36; /* Темный фон для отзывов */
+    background: rgba(53, 73, 163, 0.89); /* Темный фон для отзывов */
     padding: 20px;
     border-radius: 12px;
     width: 80%;
@@ -179,6 +184,12 @@ th {
 
 .review:hover {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.review img {
+    max-width: 100%; /* Адаптация изображений в отзывах */
+    height: auto;
+    border-radius: 5px; /* Закругленные углы */
 }
 
 footer {
@@ -201,6 +212,22 @@ header nav ul {
 header nav li {
     display: inline;
     margin: 0 20px;
+}
+
+/* Новый класс для изображений */
+.small-image {
+    width: 290px; /* Ширина изображения */
+    height: auto; /* Высота автоматически пропорциональна */
+    margin: 10px; /* Отступы вокруг изображения */
+    position: relative;
+    left: 1680px ;
+    top: -90px;
+
+}
+
+
+.reviews .image-container {
+    margin-top: 15px; /* Отступ между отзывами и изображениями */
 }
 
 header nav a {
@@ -301,19 +328,10 @@ header nav a:hover {
 
     nav {
         display: none;
-        position: fixed;
-        top: 30px;
-        left: 0;
-        width: 50%;
-        height: 100%;
-        background-color: #45368AFF; /* Новый фон для навигации */
-        box-shadow: 2px 0 10px rgba(114, 86, 220, 0.5);
-        z-index: 1000;
-        transition: transform 0.3s ease-in-out;
-        transform: translateX(-100%); /* Скрываем навигацию по умолчанию */
+        flex-direction: column;
     }
 
     nav.active {
-        transform: translateX(0); /* Показываем навигацию при активации */
+        display: flex;
     }
 }
