@@ -18,8 +18,7 @@ body {
     left: 20px;
     z-index: 1001;
     background-color: #2e2e3d;
-    border: #2e2e3d;
-;
+    border: #2e2e3d;;
 }
 
 #bonus-banner {
@@ -222,16 +221,19 @@ header nav li {
     height: auto;
     margin: 10px;
     position: relative;
-    left: 656px;
+    left: 756px;
     top: -90px;
 }
-.logo{
+
+.logo {
     width: 90px;
     height: auto;
     position: relative;
     top: 40px;
     left: 10px;
+
 }
+
 .reviews .image-container {
     margin-top: 15px;
 }
@@ -326,6 +328,7 @@ header nav a:hover {
 
     .menu-toggle {
         display: block;
+        position: relative;
     }
 
     nav {
@@ -340,8 +343,13 @@ header nav a:hover {
     .small-image {
         display: none;
     }
+
     .language-selector {
         top: 20px;
+    }
+
+    .logo {
+        left: -10px;
     }
 
     .language-selector:focus {
