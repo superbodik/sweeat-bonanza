@@ -1,0 +1,126 @@
+{
+  "en": {
+    "age_confirmation": {
+      "title": "Confirm Your Age",
+      "question": "Are you 18 years old?",
+      "confirm_yes": "Yes",
+      "confirm_no": "No"
+    },
+    "header": {
+      "home": "Home",
+      "about": "About Us",
+      "services": "Services",
+      "contact": "Contact",
+      "language": "Language"
+    },
+    "overview": {
+      "title": "Overview of Sweet Bonanza 1000",
+      "description": "Sweet Bonanza 1000 is a colorful slot filled with explosive bonuses, multipliers, and free spins. Players can expect unique features that increase winning chances and make the gameplay even more exciting."
+    },
+    "info": {
+      "title": "Game Information",
+      "provider": "Provider",
+      "provider_value": "Pragmatic Play",
+      "mode": "Mode",
+      "mode_value": "Demo and Real Play",
+      "features": "Features",
+      "features_value": "Bonus Rounds, Multipliers, Free Spins"
+    },
+    "features": {
+      "title": "Features and Bonuses",
+      "list": [
+        "Sweet Bonus Feature: Earn rewards for each successful spin!",
+        "Multipliers up to 100x to increase winnings",
+        "Free Spins – triggered by landing 4+ bonus symbols",
+        "Nice graphics and animation creating a festive atmosphere"
+      ]
+    },
+    "strategy": {
+      "title": "Strategies for Sweet Bonanza 1000",
+      "strategies": [
+        "Play in demo mode to get used to the mechanics.",
+        "Use your bet to activate multipliers and increase bonus chances.",
+        "Keep an eye on your bankroll – moderate bets increase gameplay time."
+      ]
+    },
+    "reviews": {
+      "title": "Player Reviews",
+      "review_1": "“Great game with awesome graphics! It's nice to come back again and again.” – Anna K.",
+      "review_2": "“Bonuses and multipliers - just wow! I play every day.” – Igor S."
+    },
+    "top_casinos": {
+      "title": "Top 5 Casinos to Play Sweet Bonanza 1000",
+      "casino": ["Casino 1", "Casino 2", "Casino 3", "Casino 4", "Casino 5"],
+      "rating": "⭐️⭐️⭐️⭐️⭐️"
+    },
+    "bonus_banner": {
+      "message": "🎉 Hooray! Get your bonus right now! 🎉",
+      "get_bonus": "Get Bonus"
+    },
+    "footer": {
+      "text": "Sweet Bonanza 1000 &copy; 2024. All rights reserved."
+    }
+  },
+  "de": {
+    "age_confirmation": {
+      "title": "Bestätigen Sie Ihr Alter",
+      "question": "Sind Sie 18 Jahre alt?",
+      "confirm_yes": "Ja",
+      "confirm_no": "Nein"
+    },
+    "header": {
+      "home": "Startseite",
+      "about": "Über uns",
+      "services": "Dienstleistungen",
+      "contact": "Kontakt",
+      "language": "Sprache"
+    },
+    "overview": {
+      "title": "Übersicht über Sweet Bonanza 1000",
+      "description": "Sweet Bonanza 1000 ist ein farbenfroher Slot voller explosiver Boni, Multiplikatoren und Freispiele. Die Spieler können einzigartige Funktionen erwarten, die die Gewinnchancen erhöhen und das Gameplay noch spannender machen."
+    },
+    "info": {
+      "title": "Spielinformation",
+      "provider": "Anbieter",
+      "provider_value": "Pragmatic Play",
+      "mode": "Modus",
+      "mode_value": "Demo- und Echtgeldspiel",
+      "features": "Merkmale",
+      "features_value": "Bonus-Runden, Multiplikatoren, Freispiele"
+    },
+    "features": {
+      "title": "Merkmale und Boni",
+      "list": [
+        "Süßes Bonus-Feature: Verdienen Sie Belohnungen für jeden erfolgreichen Spin!",
+        "Multiplikatoren bis zu 100x zur Erhöhung der Gewinne",
+        "Freispiele – ausgelöst durch 4+ Bonus-Symbole",
+        "Schöne Grafiken und Animationen, die eine festliche Atmosphäre schaffen"
+      ]
+    },
+    "strategy": {
+      "title": "Strategien für Sweet Bonanza 1000",
+      "strategies": [
+        "Spielen Sie im Demomodus, um sich an die Mechanik zu gewöhnen.",
+        "Nutzen Sie Ihren Einsatz, um Multiplikatoren zu aktivieren und die Bonuschancen zu erhöhen.",
+        "Achten Sie auf Ihr Budget – moderate Einsätze verlängern die Spielzeit."
+      ]
+    },
+    "reviews": {
+      "title": "Spielerbewertungen",
+      "review_1": "“Tolle Spiel mit großartiger Grafik! Es ist schön, immer wieder zurückzukommen.” – Anna K.",
+      "review_2": "“Boni und Multiplikatoren - einfach wow! Ich spiele jeden Tag.” – Igor S."
+    },
+    "top_casinos": {
+      "title": "Top 5 Casinos für Sweet Bonanza 1000",
+      "casino": ["Casino 1", "Casino 2", "Casino 3", "Casino 4", "Casino 5"],
+      "rating": "⭐️⭐️⭐️⭐️⭐️"
+    },
+    "bonus_banner": {
+      "message": "🎉 Hurra! Holen Sie sich jetzt Ihren Bonus! 🎉",
+      "get_bonus": "Bonus erhalten"
+    },
+    "footer": {
+      "text": "Sweet Bonanza 1000 &copy; 2024. Alle Rechte vorbehalten."
+    }
+  }
+}

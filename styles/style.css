@@ -225,6 +225,52 @@ header nav li {
     top: -90px;
 }
 
+.small-image2 {
+    width: 530px;
+    height: auto;
+    margin: 10px;
+    position: relative;
+    left: 756px;
+    top: -90px;
+}
+
+.small-image3 {
+    width: 330px;
+    height: auto;
+    margin: -90px;
+    position: relative;
+    left: 896px;
+    top: -90px;
+}
+
+.small-image4 {
+    width: 476px;
+    height: auto;
+    margin: 10px;
+    position: relative;
+    right: 356px;
+    top: -5px;
+}
+
+.small-image5 {
+    width: 376px;
+    height: auto;
+    margin: 10px;
+    position: relative;
+    left: 96px;
+    top: -5px;
+}
+
+.small-image7 {
+    width: 276px;
+    height: auto;
+    margin: 10px;
+    position: relative;
+    left: 106px;
+    top: -5px;
+}
+
+
 .logo {
     width: 90px;
     height: auto;
